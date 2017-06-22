@@ -1,0 +1,26 @@
+# source
+#deb http://deb.debian.org/debian jessie main contrib non-free
+#deb-src http://deb.debian.org/debian jessie main contrib non-free
+#deb http://deb.debian.org/debian jessie-updates main contrib non-free
+#deb-src http://deb.debian.org/debian jessie-updates main contrib non-free
+#deb http://security.debian.org/ jessie/updates main contrib non-free
+#deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+deb http://mirrors.163.com/debian/ jessie main non-free contrib
+deb http://mirrors.163.com/debian/ jessie-updates main non-free contrib
+#deb http://mirrors.163.com/debian/ jessie-backports main non-free contrib
+deb-src http://mirrors.163.com/debian/ jessie main non-free contrib
+deb-src http://mirrors.163.com/debian/ jessie-updates main non-free contrib
+#deb-src http://mirrors.163.com/debian/ jessie-backports main non-free contrib
+deb http://mirrors.163.com/debian-security/ jessie/updates main non-free contrib
+deb-src http://mirrors.163.com/debian-security/ jessie/updates main non-free contrib
+
+# for infinality
+#deb http://download.opensuse.org/repositories/home:/BubuXP:/Infinality/Debian_8.0/ ./
+
+#for nvidia // apt-get -t jessie-backports bumblebee-nvidia
+# jessie-backports
+#deb http://httpredir.debian.org/debian jessie-backports main contrib non-free
+
+#arc-theme
+#deb http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/ /

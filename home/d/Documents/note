@@ -1,0 +1,11 @@
+xrandr -s 1024x768
+xrandr --output VGA1 --same-as LVDS1
+xrandr --output VGA1 --same-as LVDS1 --auto
+xrandr --output VGA1 --same-as LVDS1 --mode 1024x768
+xrandr --output VGA1 --mode 1024x768 
+xrandr --output VGA --right-of LVDS --auto  // 外接VGA为笔记本右侧扩展 
+xrandr --output VGA1 --off
+
+cat id_rsa.pub | xclip -sel clip
+
+--net host --privileged -v ~/.Xauthority:/home/d/.Xauthority  -e XAUTHORITY=/home/d/.Xauthority -e DISPLAY=:0.0
