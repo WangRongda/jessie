@@ -8,11 +8,14 @@ deb http://mirrors.163.com/debian-security/ jessie/updates main non-free contrib
 deb-src http://mirrors.163.com/debian-security/ jessie/updates main non-free contrib
 
 # for infinality
-deb http://download.opensuse.org/repositories/home:/BubuXP:/Infinality/Debian_8.0/ ./
+# deb http://download.opensuse.org/repositories/home:/BubuXP:/Infinality/Debian_8.0/ ./
 
 #for nvidia // apt-get -t jessie-backports bumblebee-nvidia
 # jessie-backports
-#deb http://httpredir.debian.org/debian jessie-backports main contrib non-free
+# deb http://httpredir.debian.org/debian jessie-backports main contrib non-free
 
 #arc-theme
-#deb http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/ /
+# deb http://download.opensuse.org/repositories/home:/Horst3180/Debian_8.0/ /
+
+deb [arch=amd64] https://download.docker.com/linux/debian jessie stable
+# deb-src [arch=amd64] https://download.docker.com/linux/debian jessie stable
